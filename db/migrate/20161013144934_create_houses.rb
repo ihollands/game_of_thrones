@@ -4,7 +4,6 @@ class CreateHouses < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :sigel
       t.string :head
-      t.string :location
 
       t.timestamps
     end

@@ -1,0 +1,12 @@
+<h2>A new House doth declare itself!</h2>
+
+<%= form_for @house do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :sigel %>
+  <%= f.text_field :sigel %>
+  <%= f.label :head %>
+  <%= f.text_field :head %>
+
+  <%= f.submit "Add!" %>
+<% end %>

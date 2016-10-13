@@ -4,10 +4,8 @@ one:
   name: MyString
   sigel: MyString
   head: MyString
-  location: MyString
 
 two:
   name: MyString
   sigel: MyString
   head: MyString
-  location: MyString
